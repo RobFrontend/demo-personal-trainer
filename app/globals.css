@@ -182,6 +182,7 @@ nav {
 
 .about-img-bg {
   transition: all 2s;
+  transform: scale(1.001);
 }
 
 :root {
