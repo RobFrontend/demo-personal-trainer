@@ -1,7 +1,8 @@
 import { Poppins, Caveat } from "next/font/google";
 import "./globals.css";
 import Navigation from "./components/navigation";
-import { Fade } from "react-awesome-reveal";
+
+import Headerreveal from "./components/HeaderReveal";
 
 const poppins = Poppins({
   subsets: ["latin", "latin-ext"],
@@ -24,7 +25,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pl">
       <body className={`${poppins.variable} ${caveat.variable} antialiased`}>
-        <Navigation />
+        <Headerreveal>
+          <Navigation />
+        </Headerreveal>
 
         {children}
       </body>

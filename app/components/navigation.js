@@ -7,7 +7,7 @@ import MobileNav from "./MobileNav";
 
 function Navigation() {
   return (
-    <nav className="fixed w-full top-0 left-0 z-50 flex justify-between px-24 py-4 items-center max-[1300px]:px-8 max-md:px-4">
+    <nav className="flex justify-between px-24 py-4 items-center max-[1300px]:px-8 max-md:px-4">
       <NavLogo />
       <Fade triggerOnce>
         <ul className="flex justify-center gap-8 px-4 font-semibold max-[1300px]:gap-4 max-lg:hidden">
