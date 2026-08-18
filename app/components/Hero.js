@@ -180,7 +180,7 @@ function Hero() {
       </section>
       <section className="mt-12 mb-12">
         <Fade triggerOnce>
-          <h2 className="text-center text-3xl font-semibold uppercase">
+          <h2 className="text-center text-3xl font-semibold uppercase px-4">
             Dla kogo jest trening?
           </h2>
           <p className="border-b-2 mx-auto w-16 border-(--color-primary) mt-3"></p>

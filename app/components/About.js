@@ -9,7 +9,7 @@ function About() {
       id="o-mnie"
       className=" bg-(--color-cream) py-10 px-16 max-xl:px-12 max-md:px-4"
     >
-      <h2 className="text-3xl font-semibold uppercase text-center md:hidden">
+      <h2 className="text-3xl font-semibold uppercase text-center md:hidden px-4">
         O mnie
       </h2>
       <p className="border-b-2 w-16 border-(--color-primary) mt-3 mb-8 md:hidden mx-auto"></p>

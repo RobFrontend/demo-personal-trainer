@@ -10,7 +10,7 @@ function Transformations() {
   return (
     <section className="py-10 px-16" id="metamorfozy">
       <Fade triggerOnce>
-        <h2 className="text-3xl uppercase font-semibold text-center">
+        <h2 className="text-3xl uppercase font-semibold text-center px-4">
           Metamorfozy
         </h2>
       </Fade>

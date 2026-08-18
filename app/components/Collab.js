@@ -7,7 +7,7 @@ function Collab() {
       id="wspolpraca"
     >
       <Fade duration={1000} triggerOnce>
-        <h2 className="text-3xl uppercase font-semibold text-center ">
+        <h2 className="text-3xl uppercase font-semibold text-center px-4">
           Jak wygląda współpraca?
         </h2>
         <p className="border-b-2 w-16 border-(--color-primary) mt-3 mb-8 mx-auto"></p>

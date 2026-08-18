@@ -10,7 +10,7 @@ function Offer() {
     <section className="bg-dark pt-10 pb-10" id="oferta">
       <div>
         <Fade triggerOnce>
-          <h2 className="text-3xl uppercase font-semibold text-center text-(--color-background) mb-20">
+          <h2 className="text-3xl uppercase font-semibold text-center text-(--color-background) mb-20 px-4">
             Oferta
           </h2>
         </Fade>
