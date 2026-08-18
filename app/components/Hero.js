@@ -113,7 +113,7 @@ function Hero() {
         </div> */}
         </div>
       </section>
-      <section className="flex justify-between items-center flex-wrap hero-peach-bar py-8 px-32 rounded-2xl w-[95%] mx-auto -mt-12 z-10 max-2xl:px-24 max-xl:px-16  max-lg:grid max-lg:grid-cols-2 max-md:w-full max-lg:gap-6 max-lg:justify-items-center max-md:px-4">
+      <section className="flex justify-between items-center flex-wrap hero-peach-bar py-8 px-32 rounded-2xl w-[95%] mx-auto -mt-12 z-10 max-2xl:px-24 max-xl:px-16  max-lg:grid max-lg:grid-cols-2 max-md:w-full max-lg:gap-6 max-lg:justify-items-center max-md:px-4 max-md:items-start">
         <Fade cascade delay={400} duration={500} triggerOnce>
           <div className="flex gap-4 max-2xl:gap-3 max-lg:flex-col">
             <Image
