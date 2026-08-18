@@ -4,8 +4,10 @@ import NavLogo from "./NavLogo";
 import { Fade } from "react-awesome-reveal";
 
 import MobileNav from "./MobileNav";
+import { useModal } from "../context/FormModalContext";
 
 function Navigation() {
+  const { openModal } = useModal();
   return (
     <nav className="flex justify-between px-24 py-4 items-center max-[1300px]:px-8 max-md:px-4">
       <NavLogo />
@@ -37,6 +39,7 @@ function Navigation() {
       <button
         name="Umów konsultację"
         className="btn1 font-semibold text-sm max-[1300px]:text-xs max-lg:hidden"
+        onClick={openModal}
       >
         Umów konsultację <span className="pl-2">→</span>
       </button>

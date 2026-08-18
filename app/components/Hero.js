@@ -9,6 +9,7 @@ import HeroIcon6 from "@/public/icon-afterbreak.png";
 import HeroBG from "@/public/herobg.png";
 import { Fade } from "react-awesome-reveal";
 import Link from "next/link";
+import CtaModal from "./CtaModal";
 
 function Hero() {
   return (
@@ -52,12 +53,18 @@ function Hero() {
                 </div>
                 <Fade delay={200} triggerOnce></Fade>
                 <div className="flex justify-between  text-lg max-[1180px]:text-base  max-lg:flex-col max-lg:gap-4 max-lg:w-fit">
-                  <button
+                  {/* <button
                     name="Umów darmową konsultację"
                     className="btn1 font-semibold"
                   >
                     Umów Konsultację <span className="pl-3">→</span>
-                  </button>
+                  </button> */}
+                  <CtaModal
+                    btnclass={"btn1 font-semibold"}
+                    btntext={"Umów konsultację"}
+                    btnarrow={"→"}
+                    spanBoolean={true}
+                  />
                   <Link
                     href="#metamorfozy"
                     className="btn2 font-semibold text-lg max-[1180px]:text-base"

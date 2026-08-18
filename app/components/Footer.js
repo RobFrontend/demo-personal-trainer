@@ -8,6 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import { Fade } from "react-awesome-reveal";
+import CtaModal from "./CtaModal";
 
 function Footer() {
   return (
@@ -95,12 +96,10 @@ function Footer() {
                 Warszawa
               </li>
             </ul>
-            <button
-              name="Umów konsultację"
-              className="btn1 uppercase font-semibold text-xs"
-            >
-              Umów konsultację
-            </button>
+            <CtaModal
+              btnclass={"btn1 uppercase font-semibold text-xs"}
+              btntext={"Umów Konsultację"}
+            />
           </div>
         </div>
         <div className="flex justify-between border-t border-border/20 mx-auto py-4 text-xs max-sm:flex-col-reverse max-sm:gap-1 max-sm:text-center">

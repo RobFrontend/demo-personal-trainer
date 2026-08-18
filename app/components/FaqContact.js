@@ -2,6 +2,7 @@ import ContactBG from "@/public/contactbg.png";
 import Image from "next/image";
 import { Bounce, Fade } from "react-awesome-reveal";
 import { FiPlus } from "react-icons/fi";
+import CtaModal from "./CtaModal";
 
 function FaqContact() {
   return (
@@ -52,12 +53,12 @@ function FaqContact() {
               osiągnąć!
             </p>
             <Bounce delay={500} triggerOnce>
-              <button
-                name="Umów konsultację"
-                className="btn4 uppercase font-semibold max-sm:text-sm"
-              >
-                Umów Konsultację <span className="pl-2">→</span>
-              </button>
+              <CtaModal
+                btnclass={"btn4 uppercase font-semibold max-sm:text-sm"}
+                btntext={"Umów Konsultację"}
+                btnarrow={"→"}
+                spanBoolean={true}
+              />
             </Bounce>
             <Image
               src={ContactBG}

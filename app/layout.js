@@ -3,6 +3,7 @@ import "./globals.css";
 import Navigation from "./components/navigation";
 
 import Headerreveal from "./components/HeaderReveal";
+import { ModalFormProvider } from "./context/FormModalContext";
 
 const poppins = Poppins({
   subsets: ["latin", "latin-ext"],
@@ -26,11 +27,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pl">
       <body className={`${poppins.variable} ${caveat.variable} antialiased`}>
-        <Headerreveal>
-          <Navigation />
-        </Headerreveal>
+        <ModalFormProvider>
+          <Headerreveal>
+            <Navigation />
+          </Headerreveal>
 
-        {children}
+          {children}
+        </ModalFormProvider>
       </body>
     </html>
   );

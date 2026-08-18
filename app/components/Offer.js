@@ -5,6 +5,7 @@ import { VscDebugStart } from "react-icons/vsc";
 import { LuCrown } from "react-icons/lu";
 import { HiStatusOnline } from "react-icons/hi";
 import { Bounce, Fade } from "react-awesome-reveal";
+import CtaModal from "./CtaModal";
 function Offer() {
   return (
     <section className="bg-dark pt-10 pb-10" id="oferta">
@@ -61,12 +62,10 @@ function Offer() {
               <div className="grid justify-center w-full">
                 <Fade delay={500} triggerOnce>
                   <Bounce delay={500} triggerOnce>
-                    <button
-                      name="Wybierz pakiet start"
-                      className="mt-6 btn3 font-semibold"
-                    >
-                      Umów Konsultację
-                    </button>
+                    <CtaModal
+                      btnclass={"mt-6 btn3 font-semibold"}
+                      btntext={"Umów Konsultację"}
+                    />
                   </Bounce>
                 </Fade>
               </div>
@@ -124,12 +123,10 @@ function Offer() {
               <div className="grid justify-center w-full">
                 <Fade delay={500} triggerOnce>
                   <Bounce delay={500} triggerOnce>
-                    <button
-                      name="Wybierz pakiet pro"
-                      className="mt-6 btn1 font-semibold"
-                    >
-                      Umów Konsultację
-                    </button>
+                    <CtaModal
+                      btnclass={"mt-6 btn1 font-semibold"}
+                      btntext={"Umów Konsultację"}
+                    />
                   </Bounce>
                 </Fade>
               </div>
@@ -189,12 +186,10 @@ function Offer() {
               <div className="grid justify-center w-full">
                 <Fade delay={500} triggerOnce>
                   <Bounce delay={500} triggerOnce>
-                    <button
-                      name="Wybierz pakiet online"
-                      className="mt-6 btn3 font-semibold"
-                    >
-                      Umów Konsultację
-                    </button>
+                    <CtaModal
+                      btnclass={"mt-6 btn3 font-semibold"}
+                      btntext={"Umów Konsultację"}
+                    />
                   </Bounce>
                 </Fade>
               </div>
