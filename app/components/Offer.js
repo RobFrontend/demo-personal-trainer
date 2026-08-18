@@ -61,7 +61,10 @@ function Offer() {
               <div className="grid justify-center w-full">
                 <Fade delay={500} triggerOnce>
                   <Bounce delay={500} triggerOnce>
-                    <button className="mt-6 btn3 font-semibold">
+                    <button
+                      name="Wybierz pakiet start"
+                      className="mt-6 btn3 font-semibold"
+                    >
                       Umów Konsultację
                     </button>
                   </Bounce>
@@ -121,7 +124,10 @@ function Offer() {
               <div className="grid justify-center w-full">
                 <Fade delay={500} triggerOnce>
                   <Bounce delay={500} triggerOnce>
-                    <button className="mt-6 btn1 font-semibold">
+                    <button
+                      name="Wybierz pakiet pro"
+                      className="mt-6 btn1 font-semibold"
+                    >
                       Umów Konsultację
                     </button>
                   </Bounce>
@@ -183,7 +189,10 @@ function Offer() {
               <div className="grid justify-center w-full">
                 <Fade delay={500} triggerOnce>
                   <Bounce delay={500} triggerOnce>
-                    <button className="mt-6 btn3 font-semibold">
+                    <button
+                      name="Wybierz pakiet online"
+                      className="mt-6 btn3 font-semibold"
+                    >
                       Umów Konsultację
                     </button>
                   </Bounce>

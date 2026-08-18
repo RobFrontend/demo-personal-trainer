@@ -52,7 +52,10 @@ function FaqContact() {
               osiągnąć!
             </p>
             <Bounce delay={500} triggerOnce>
-              <button className="btn4 uppercase font-semibold max-sm:text-sm">
+              <button
+                name="Umów konsultację"
+                className="btn4 uppercase font-semibold max-sm:text-sm"
+              >
                 Umów Konsultację <span className="pl-2">→</span>
               </button>
             </Bounce>

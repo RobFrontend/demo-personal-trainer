@@ -13,7 +13,7 @@ import Link from "next/link";
 function Hero() {
   return (
     <>
-      <section className="relative overflow-x-hidden">
+      <section className="relative overflow-x-hidden" id="sekcja-glowna">
         <div>
           <Image
             src={HeroBG}
@@ -52,7 +52,10 @@ function Hero() {
                 </div>
                 <Fade delay={200} triggerOnce></Fade>
                 <div className="flex justify-between  text-lg max-[1180px]:text-base  max-lg:flex-col max-lg:gap-4 max-lg:w-fit">
-                  <button className="btn1 font-semibold">
+                  <button
+                    name="Umów darmową konsultację"
+                    className="btn1 font-semibold"
+                  >
                     Umów Konsultację <span className="pl-3">→</span>
                   </button>
                   <Link

@@ -34,7 +34,10 @@ function Navigation() {
           </li>
         </ul>
       </Fade>
-      <button className="btn1 font-semibold text-sm max-[1300px]:text-xs max-lg:hidden">
+      <button
+        name="Umów konsultację"
+        className="btn1 font-semibold text-sm max-[1300px]:text-xs max-lg:hidden"
+      >
         Umów konsultację <span className="pl-2">→</span>
       </button>
       <div className="lg:hidden">

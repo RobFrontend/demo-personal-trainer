@@ -15,24 +15,24 @@ function Footer() {
       <Fade triggerOnce>
         <div className="flex justify-between pt-10 pb-4 max-md:grid max-md:grid-cols-2 max-md:gap-4 max-sm:grid-cols-1">
           <div className="max-md:col-span-full">
-            <Link href="#">
+            <Link href="#sekcja-glowna">
               <Image src={LogoIMG} alt="logo" className="max-w-48" />
             </Link>
             <div className="flex gap-2 p-1 self-center justify-self-center max-md:justify-self-start">
               <Link
-                href="#"
+                href="#sekcja-glowna"
                 className="text-lg transition-opacity hover:opacity-80"
               >
                 <FaInstagram fill="#df7657" />
               </Link>
               <Link
-                href="#"
+                href="#sekcja-glowna"
                 className="text-lg transition-opacity hover:opacity-80"
               >
                 <FaFacebook fill="#df7657" />
               </Link>
               <Link
-                href="#"
+                href="#sekcja-glowna"
                 className="text-lg transition-opacity hover:opacity-80"
               >
                 <FaTiktok fill="#df7657" />
@@ -95,7 +95,10 @@ function Footer() {
                 Warszawa
               </li>
             </ul>
-            <button className="btn1 uppercase font-semibold text-xs">
+            <button
+              name="Umów konsultację"
+              className="btn1 uppercase font-semibold text-xs"
+            >
               Umów konsultację
             </button>
           </div>
@@ -105,7 +108,7 @@ function Footer() {
             &copy; {new Date().getFullYear()} STRONG BY MARTA Wszystkie prawa
             zastrzeżone
           </p>
-          <Link href="#">Polityka prywatności</Link>
+          <Link href="#sekcja-glowna">Polityka prywatności</Link>
         </div>
       </Fade>
     </footer>
