@@ -21,7 +21,7 @@ function Hero() {
             loading="lazy"
             objectFit="cover"
             objectPosition="center"
-            alt="hero"
+            alt="Ilustracja oświetlonej słońcem siłowni"
             className="-z-10"
           />
           <div className="grid grid-cols-2 pb-12 pt-32 min-h-[85vh] max-[1300px]:pt-16 max-md:grid-cols-1 max-md:pt-24">
@@ -67,7 +67,7 @@ function Hero() {
             <div className="self-end justify-self-center max-md:justify-self-end">
               <Image
                 src={HeroImage}
-                alt="Hero Image"
+                alt="Trenerka Marta pokazująca wysportowaną sylwetkę i spoglądająca na światło"
                 className="self-end justify-self-center max-[1300px]:h-[90%] max-[1300px]:w-auto max-lg:max-auto max-lg:w-auto max-md:justify-self-end max-md:translate-x-12 max-md:max-h-87 "
               />
             </div>
@@ -118,7 +118,7 @@ function Hero() {
           <div className="flex gap-4 max-2xl:gap-3 max-lg:flex-col">
             <Image
               src={HeroIcon1}
-              alt="icon"
+              alt="ikona ludzi"
               className="self-center max-2xl:w-14 max-2xl:h-14 max-xl:w-12 max-xl:h-12"
             />
             <div>
@@ -134,7 +134,7 @@ function Hero() {
           <div className="flex gap-4 max-2xl:gap-3 max-lg:flex-col">
             <Image
               src={HeroIcon2}
-              alt="icon"
+              alt="ikona gwiazdy"
               className="self-center max-2xl:w-14 max-2xl:h-14 max-xl:w-12 max-xl:h-12"
             />
             <div>
@@ -149,7 +149,7 @@ function Hero() {
           <div className="flex gap-4 max-2xl:gap-3 max-lg:flex-col">
             <Image
               src={HeroIcon3}
-              alt="icon"
+              alt="ikona hantla"
               className="self-center max-2xl:w-14 max-2xl:h-14 max-xl:w-12 max-xl:h-12"
             />
             <div>
@@ -164,7 +164,7 @@ function Hero() {
           <div className="flex gap-4 max-2xl:gap-3 max-lg:flex-col">
             <Image
               src={HeroIcon4}
-              alt="icon"
+              alt="ikona lokalizacji"
               className="self-center max-2xl:w-14 max-2xl:h-14 max-xl:w-12 max-xl:h-12"
             />
             <div>
@@ -187,7 +187,11 @@ function Hero() {
           <div className="flex justify-between items-start mt-8 px-16 max-xl:px-12 max-lg:grid max-lg:grid-cols-2 max-lg:gap-8 max-md:grid-cols-1">
             <div className="text-center w-[20%] max-lg:w-full max-lg:flex max-lg:items-start max-lg:gap-4 max-lg:text-left">
               <div className="rounded-full mx-auto bg-(--color-cream) w-fit max-lg:h-full max-lg:w-auto max-lg:mx-2">
-                <Image src={HeroIcon1} alt="icon" className="mx-auto p-3" />
+                <Image
+                  src={HeroIcon1}
+                  alt="ikona grupy ludzi"
+                  className="mx-auto p-3"
+                />
               </div>
               <div className="max-lg:max-w-[70%]">
                 <h3 className="font-semibold mt-3 mb-2">Dla początkujacych</h3>
@@ -199,7 +203,11 @@ function Hero() {
             </div>
             <div className="text-center w-[20%] max-lg:w-full max-lg:flex max-lg:items-start max-lg:gap-4 max-lg:text-left">
               <div className="rounded-full mx-auto bg-(--color-cream) w-fit max-lg:h-full max-lg:w-auto max-lg:mx-2">
-                <Image src={HeroIcon5} alt="icon" className="mx-auto p-3" />
+                <Image
+                  src={HeroIcon5}
+                  alt="ikona talii"
+                  className="mx-auto p-3"
+                />
               </div>
               <div className="max-lg:max-w-[70%]">
                 <h3 className="font-semibold mt-3 mb-2">Dla kobiet</h3>
@@ -211,7 +219,11 @@ function Hero() {
             </div>
             <div className="text-center w-[20%] max-lg:w-full max-lg:flex max-lg:items-start max-lg:gap-4 max-lg:text-left">
               <div className="rounded-full mx-auto bg-(--color-cream) w-fit max-lg:h-full max-lg:w-auto max-lg:mx-2">
-                <Image src={HeroIcon3} alt="icon" className="mx-auto p-3" />
+                <Image
+                  src={HeroIcon3}
+                  alt="ikona hantla"
+                  className="mx-auto p-3"
+                />
               </div>
               <div className="max-lg:max-w-[70%]">
                 <h3 className="font-semibold mt-3 mb-2">Dla zapracowancyh</h3>
@@ -223,7 +235,11 @@ function Hero() {
             </div>
             <div className="text-center w-[20%] max-lg:w-full max-lg:flex max-lg:items-start max-lg:gap-4 max-lg:text-left">
               <div className="rounded-full mx-auto bg-(--color-cream) w-fit max-lg:h-full max-lg:w-auto max-lg:mx-2">
-                <Image src={HeroIcon6} alt="icon" className="mx-auto p-3" />
+                <Image
+                  src={HeroIcon6}
+                  alt="ikona tarczy"
+                  className="mx-auto p-3"
+                />
               </div>
               <div className="max-lg:max-w-[70%] ">
                 <h3 className="font-semibold mt-3 mb-2">

@@ -18,7 +18,7 @@ function About() {
           <div className="relative grid items-end justify-center overflow-hidden rounded-2xl about-img-box h-full">
             <Image
               src={AboutBG}
-              alt="about"
+              alt="Ilustracja siłowni z wyposażeniem w hantle, ławeczkę, klatkę oraz wyciąg"
               fill
               objectFit="cover"
               objectPosition="center"
@@ -27,7 +27,7 @@ function About() {
             <Fade delay={250} triggerOnce>
               <Image
                 src={Trainer}
-                alt="Trainer"
+                alt="Trenerka Marta spoglądająca na kamerę z rękoma założonymi na siebie"
                 className="pt-12 px-6 max-h-88 w-auto"
               />
             </Fade>

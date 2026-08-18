@@ -20,7 +20,7 @@ function Transformations() {
           <div className=" bg-(--color-cream) p-6 rounded-xl max-lg:rounded-md">
             <Image
               src={Tran1}
-              alt="metamorfoza"
+              alt="metamorfoza podopiecznej, która zgubiła wagę oraz poprawiła sylwetkę oraz zdrowie dzięki trenerce Marcie"
               className="rounded-md max-h-62.5 w-auto max-lg:rounded-sm"
               quality={100}
               loading="lazy"
@@ -31,7 +31,7 @@ function Transformations() {
           <div className=" bg-(--color-cream) p-6 rounded-xl max-lg:rounded-md">
             <Image
               src={Tran2}
-              alt="metamorfoza"
+              alt="metamorfoza podopiecznej, która zgubiła wagę oraz poprawiła sylwetkę oraz zdrowie dzięki trenerce Marcie"
               className="rounded-md max-h-62.5 w-auto max-lg:rounded-sm"
               quality={100}
               loading="lazy"
@@ -42,7 +42,7 @@ function Transformations() {
           <div className=" bg-(--color-cream) p-6 rounded-xl max-lg:rounded-md">
             <Image
               src={Tran3}
-              alt="metamorfoza"
+              alt="metamorfoza podopiecznej, która zgubiła wagę oraz poprawiła sylwetkę oraz zdrowie dzięki trenerce Marcie"
               className="rounded-md max-h-62.5 w-auto max-lg:rounded-sm"
               quality={100}
               loading="lazy"
@@ -53,7 +53,7 @@ function Transformations() {
           <div className=" bg-(--color-cream) p-6 rounded-xl max-lg:rounded-md">
             <Image
               src={Tran4}
-              alt="metamorfoza"
+              alt="metamorfoza podopiecznej, która zgubiła wagę oraz poprawiła sylwetkę oraz zdrowie dzięki trenerce Marcie"
               className="rounded-md max-h-62.5 w-auto max-lg:rounded-sm"
               quality={100}
               loading="lazy"

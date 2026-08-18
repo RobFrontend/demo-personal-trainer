@@ -58,7 +58,7 @@ function FaqContact() {
             </Bounce>
             <Image
               src={ContactBG}
-              alt="contact"
+              alt="Ilustracja Marty w trakcie biegu"
               fill
               objectFit="contain"
               className="-z-10 object-bottom-right"
