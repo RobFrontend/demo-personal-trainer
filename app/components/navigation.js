@@ -3,6 +3,8 @@ import Link from "next/link";
 import NavLogo from "./NavLogo";
 import { Fade } from "react-awesome-reveal";
 
+import MobileNav from "./MobileNav";
+
 function Navigation() {
   return (
     <nav className="fixed w-full top-0 left-0 z-50 flex justify-between px-24 py-4 items-center max-[1300px]:px-8 max-md:px-4">
@@ -35,6 +37,9 @@ function Navigation() {
       <button className="btn1 font-semibold text-sm max-[1300px]:text-xs max-lg:hidden">
         Umów konsultację <span className="pl-2">→</span>
       </button>
+      <div className="lg:hidden">
+        <MobileNav />
+      </div>
     </nav>
   );
 }
