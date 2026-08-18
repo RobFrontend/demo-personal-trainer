@@ -29,7 +29,7 @@ function Hero() {
               <h1 className="text-6xl font-bold mb-8 leading-[1.2] text-(--color-dark-light) max-[1180px]:text-5xl max-md:text-4xl max-md:max-w-84 max-md:mb-4">
                 Trening, który zmienia nie tylko ciało ale i życie.
               </h1>
-              <Fade>
+              <Fade triggerOnce>
                 <div className="max-sm:hidden text-lg max-[1180px]:text-base">
                   <Fade cascade damping={0.01} triggerOnce>
                     Indywidualne podejście, plan dopasowany do Ciebie
@@ -64,11 +64,11 @@ function Hero() {
                 </div>
               </Fade>
             </div>
-            <div className="self-end justify-self-center">
+            <div className="self-end justify-self-center max-md:justify-self-end">
               <Image
                 src={HeroImage}
                 alt="Hero Image"
-                className="self-end justify-self-center max-[1300px]:h-[90%] max-[1300px]:w-auto max-lg:max-auto max-lg:w-auto max-md:justify-self-end max-md:translate-x-12 max-md:max-h-87"
+                className="self-end justify-self-center max-[1300px]:h-[90%] max-[1300px]:w-auto max-lg:max-auto max-lg:w-auto max-md:justify-self-end max-md:translate-x-12 max-md:max-h-87 "
               />
             </div>
           </div>
