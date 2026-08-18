@@ -1,14 +1,18 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins, Caveat } from "next/font/google";
 import "./globals.css";
+import Navigation from "./components/navigation";
+import { Fade } from "react-awesome-reveal";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const poppins = Poppins({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-poppins",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const caveat = Caveat({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600"],
+  variable: "--font-caveat",
 });
 
 export const metadata = {
@@ -18,11 +22,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="pl">
+      <body className={`${poppins.variable} ${caveat.variable} antialiased`}>
+        <Navigation />
+
+        {children}
+      </body>
     </html>
   );
 }
