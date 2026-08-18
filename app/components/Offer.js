@@ -20,9 +20,12 @@ function Offer() {
               className="bg-(--color-background) p-8 rounded-3xl w-full flex flex-col justify-between max-xl:px-4"
               id="plan-start"
             >
-              <div className="rounded-full w-fit h-auto mx-auto shadow-md -mt-20 z-10 bg-(--color-background)  mb-6 p-4">
+              <div className="rounded-full w-fit h-auto mx-auto shadow-md -mt-20 z-10 bg-(--color-background)  mb-6 p-4 max-xl:-mt-18">
                 {/* <Image src={Icon1} alt="icon" className="mx-auto p-4 w-full" /> */}
-                <VscDebugStart fill="#df7657" className="w-16 h-16" />
+                <VscDebugStart
+                  fill="#df7657"
+                  className="w-16 h-16 max-xl:w-12 max-xl:h-12"
+                />
               </div>
               <h3 className="uppercase text-xl font-semibold text-center mb-4">
                 Plan Start
@@ -70,12 +73,12 @@ function Offer() {
               className="text-(--color-background) p-8 border-2 border-(--color-primary) rounded-3xl -mt-6 w-full flex flex-col justify-between max-xl:px-4"
               id="plan-pro"
             >
-              <div className="rounded-full w-fit h-auto mx-auto shadow-md -mt-16 z-10 bg-(--color-background)  mb-6 p-4">
+              <div className="rounded-full w-fit h-auto mx-auto shadow-md -mt-16 z-10 bg-(--color-background)  mb-6 p-4 max-xl:-mt-14">
                 {/* <Image src={Icon1} alt="icon" className="mx-auto p-4 w-full" /> */}
                 <LuCrown
                   stroke="#df7657"
                   strokeWidth={2}
-                  className="w-16 h-16"
+                  className="w-16 h-16 max-xl:w-12 max-xl:h-12"
                 />
               </div>
               <h3 className="uppercase text-xl font-semibold text-center mb-4">
@@ -130,9 +133,12 @@ function Offer() {
               className="bg-(--color-background) p-8 rounded-3xl w-full flex flex-col justify-between max-xl:px-4"
               id="plan-online"
             >
-              <div className="rounded-full w-fit h-auto mx-auto shadow-md -mt-20 z-10 bg-(--color-background)  mb-6 p-4">
+              <div className="rounded-full w-fit h-auto mx-auto shadow-md -mt-20 z-10 bg-(--color-background)  mb-6 p-4 max-xl:-mt-18">
                 {/* <Image src={Icon1} alt="icon" className="mx-auto p-4 w-full" /> */}
-                <HiStatusOnline fill="#df7657" className="w-16 h-16" />
+                <HiStatusOnline
+                  fill="#df7657"
+                  className="w-16 h-16 max-xl:w-12 max-xl:h-12"
+                />
               </div>
               <h3 className="uppercase text-xl font-semibold text-center mb-4">
                 Plan Online
