@@ -7,7 +7,7 @@ function About() {
   return (
     <section
       id="o-mnie"
-      className=" bg-(--color-cream) py-10 px-16 max-xl:px-12 max-md:px-4"
+      className=" bg-(--color-cream) py-10 px-16 max-xl:px-12 max-md:px-4 overflow-x-hidden"
     >
       <h2 className="text-3xl font-semibold uppercase text-center md:hidden px-4">
         O mnie

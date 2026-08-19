@@ -9,6 +9,7 @@ import FaqContact from "./components/FaqContact";
 import Footer from "./components/Footer";
 import ModalForm from "./components/ModalForm";
 import { useModal } from "./context/FormModalContext";
+import ArrowUp from "./components/ArrowUp";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Reviews />
       <FaqContact />
       <Footer />
+      <ArrowUp />
     </>
   );
 }
